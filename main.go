@@ -27,6 +27,8 @@ func main() {
 	e.GET("/api-list", func(c echo.Context) error {
 		return c.JSON(200, e.Routes())
 	})
+	//healthcheck
+	e.GET("/health", func(c echo.Context) error { return c.String(200, "OK") })
 
 	// get port from env
 	port := os.Getenv("PORT")

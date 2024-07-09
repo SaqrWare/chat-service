@@ -41,7 +41,6 @@ project-root/vendor/
 # Dependency directories (remove - if you want to check in your vendor folder)
 vendor/
 Gopkg.lock
-go.sum
 
 # IDEs and editors
 *.swp

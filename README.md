@@ -171,7 +171,7 @@ You can create the database schema with tools like cassandra-web
 
 ```bash
 docker run  --name cassandra-web \
--e CASSANDRA_HOST_IP=127.0.0.1 \
+-e CASSANDRA_HOSTS=127.0.0.1 \
 -e CASSANDRA_PORT=9042 \
 -e CASSANDRA_USERNAME=user \
 -e CASSANDRA_PASSOWRD=pass \
